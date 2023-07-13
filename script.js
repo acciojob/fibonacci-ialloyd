@@ -20,11 +20,7 @@ function fibonacci(num) {
 		
 	}
 
-	
-
-	return c;
-
-	
+	return b;
 	
 }
 
