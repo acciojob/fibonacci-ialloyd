@@ -1,13 +1,15 @@
 function fibonacci(num) {
 // your code here
-	if(num<=0 || num==1){
+	let numb=Number(num);
+		
+	if(numb<=0 || numb==1){
 
 		return 0;
 	}
 
 	let c=0;
 	
-	for(let i=2; i<=num; i++){
+	for(let i=2; i<=numb; i++){
 
 		let a=0, b=1;
 
