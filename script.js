@@ -7,11 +7,16 @@ function fibonacci(num) {
 		return 0;
 	}
 
+	if(num==2){
+
+		return 1;
+	}
+
 	let c=0;
 	let a=0;
 	let b=1;
 	
-	for(let i=2; i<=num; i++){
+	for(let i=3; i<=num; i++){
 
 		c=a+b;
 
@@ -20,8 +25,10 @@ function fibonacci(num) {
 		
 	}
 
-	return b;
+	return c;
 	
 }
+//let num=prompt("Enter number")
+//alert(fibonacci(num))
 
 module.exports = fibonacci;
