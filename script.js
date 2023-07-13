@@ -8,10 +8,10 @@ function fibonacci(num) {
 	}
 
 	let c=0;
-	let a=0, b=1;
+	let a=0;
+	let b=1;
 	
 	for(let i=2; i<=num; i++){
-
 
 		c=a+b;
 
